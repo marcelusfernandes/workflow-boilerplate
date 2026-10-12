@@ -1,0 +1,10 @@
+{
+  "project_name": "Python project",
+  "gates": [
+    {
+      "name": "unit",
+      "argv": ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"],
+      "timeout_seconds": 300
+    }
+  ]
+}

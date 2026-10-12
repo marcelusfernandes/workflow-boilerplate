@@ -1,0 +1,10 @@
+{
+  "id": "local/example",
+  "owner": "implementador",
+  "base_ref": "HEAD",
+  "allowed_globs": ["src/**", "tests/**"],
+  "dependencies": [],
+  "acceptance": ["Describe observable outcome and required evidence"],
+  "authorized_remote_actions": [],
+  "resources": []
+}

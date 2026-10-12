@@ -1,0 +1,10 @@
+{
+  "project_name": "Node project",
+  "gates": [
+    {
+      "name": "unit",
+      "argv": ["node", "--test"],
+      "timeout_seconds": 300
+    }
+  ]
+}

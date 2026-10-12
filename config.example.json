@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project_name": "My project",
+  "adapters": ["codex", "claude"],
+  "roles": [
+    "explorador",
+    "implementador",
+    "qa",
+    "revisor",
+    "documentador",
+    "operador"
+  ],
+  "models": { "codex": {}, "claude": {} },
+  "reasoning_efforts": {},
+  "python_command": "python3",
+  "protected_branches": ["main", "master"],
+  "protected_paths": [
+    ".env",
+    ".env.*",
+    "**/.env",
+    "**/.env.*",
+    "**/*.pem",
+    "**/*.key"
+  ],
+  "owned_paths": [],
+  "evidence_max_age_minutes": 120,
+  "claude_stop_gate": false,
+  "gates": []
+}
